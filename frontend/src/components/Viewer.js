@@ -6,7 +6,7 @@ function Viewer() {
     useEffect(() => {
         const fetchStream = async () => {
             try {
-                const response = await fetch('http://localhost:5000/viewer'); // Replace with actual stream endpoint
+                const response = await fetch('https://live-streaming-server-with-user.onrender.com'); // Replace with actual stream endpoint
                 if (response.ok) {
                     const stream = await response.blob();
                     const url = URL.createObjectURL(stream);
