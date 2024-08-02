@@ -18,7 +18,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && move build dist",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -40,11 +40,7 @@
       "last 1 safari version"
     ]
   },
-<<<<<<< HEAD
-  "devDependencies": {
-=======
 "devDependencies": {
->>>>>>> 2bfdaf06294b56399b65d2f287e74e51db87e09f
     "@babel/plugin-proposal-private-property-in-object": "^7.14.5"
   }
 }
